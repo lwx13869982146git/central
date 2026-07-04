@@ -1,0 +1,21 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: security-service
+  config:
+    import:
+      - optional:nacos:security-service.yaml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.132.100:8848
+        namespace: public
+        group: DEFAULT_GROUP
+      config:
+        server-addr: 192.168.132.100:8848
+        file-extension: yaml
+        namespace: public
+        group: DEFAULT_GROUP
+        refresh-enabled: true
