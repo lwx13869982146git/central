@@ -22,6 +22,11 @@ public class LeaveRequestController {
 
     private final LeaveRequestService leaveRequestService;
 
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello world";
+    }
+
     /**
      * 提交请假申请 - 启动工作流流程
      */
