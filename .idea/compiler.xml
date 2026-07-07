@@ -9,10 +9,12 @@
         <module name="sale" />
         <module name="security" />
         <module name="common" />
-        <module name="workflow" />
         <module name="user" />
-        <module name="flow" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flow" target="17" />
+      <module name="workflow" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
