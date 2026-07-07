@@ -9,7 +9,9 @@
         <module name="sale" />
         <module name="security" />
         <module name="common" />
+        <module name="workflow" />
         <module name="user" />
+        <module name="flow" />
       </profile>
     </annotationProcessing>
   </component>

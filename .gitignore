@@ -1,2 +1,7 @@
 # Private files
 private/
+
+# Java build output
+*/target/
+
+sale-frontend/node_modules/

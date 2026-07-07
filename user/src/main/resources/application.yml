@@ -10,18 +10,18 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.132.100:8848
+        server-addr: 192.168.184.100:8848
         namespace: public
         group: DEFAULT_GROUP
       config:
-        server-addr: 192.168.132.100:8848
+        server-addr: 192.168.184.100:8848
         file-extension: yaml
         namespace: public
         group: DEFAULT_GROUP
         refresh-enabled: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.132.100:3307/user?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.184.100:3306/user?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: "Root@123456"
 

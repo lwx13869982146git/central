@@ -1,4 +1,0 @@
-com/central/common/result/Result.class
-com/central/common/config/RedisConfig.class
-com/central/common/util/RedisUtil.class
-com/central/common/entity/User.class
